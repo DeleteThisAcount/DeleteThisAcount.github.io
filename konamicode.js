@@ -1,3 +1,3 @@
 cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
-  alert('Voilà!');
+  swal('ALL YOUR EASTER EGG BELONG TO US.');
 });
