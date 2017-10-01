@@ -1,4 +1,8 @@
 cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
-  swal('ALL YOUR EASTER EGG ARE BELONG TO US.'),
+  swal(
+    'Congrats',
+    'You found an easter egg!',
+    'success'
+  ),
 document.body.style.backgroundImage = "url('images/pic01.jpg')";
 });
