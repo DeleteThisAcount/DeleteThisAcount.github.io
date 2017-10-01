@@ -4,5 +4,5 @@ cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
     'You found an easter egg!',
     'success'
   ),
-document.body.style.backgroundImage = "url('images/pic01.jpg')";
+document.body.style.backgroundColor = "#42b3ff";
 });
