@@ -4,5 +4,5 @@ cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
     'You found an easter egg!',
     'success'
   ),
-document.body.style.backgroundColor = "#42b3ff";
+document.body.style.backgroundColor = "getRandomColor()";
 });
