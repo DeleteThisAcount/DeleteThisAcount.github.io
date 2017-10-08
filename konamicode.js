@@ -1,12 +1,12 @@
 cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
   swal({
-    title: 'Are you sure?',
-    text: "You won't be able to revert this!",
+    title: 'All your easter egg are belong to us!',
+    text: "If you are prone to seizures please press cancel.",
     type: 'success',
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
     cancelButtonColor: '#d33',
-    confirmButtonText: 'Yes, delete it!'
+    confirmButtonText: 'Click for magic!'
   }).then(function () {
     var colors = ['red', 'green', 'blue']; // Define Your colors here, can be html name of color, hex, rgb or anything what You can use in CSS
     var active = 0;
@@ -14,7 +14,7 @@ cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
         document.querySelector('body').style.background = colors[active];
         active++;
         if (active == colors.length) active = 0;
-    }, 30)
+    }, 300)
   }),
 document.body.style.backgroundColor = "#a4c2f4";
 });
